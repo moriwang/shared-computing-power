@@ -19,12 +19,25 @@
             repo: '',
             loadSidebar: true,
             formatUpdated: '{YYYY}/{MM}/{DD}',
+            repo: 'true', // set the docsify show the corner
+            corner: {
+                url: "https://github.com/moriwang/shared-computing-power",
+                icon: "github",
+            },
+            footer: {
+                copy: '<span>SCP Project &copy; 2020</span>',
+                auth: ' ',
+                pre: '<hr>',
+                style: 'text-align: center;'
+            },
         }
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-docker.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-corner/dist/docsify-corner.min.js"></script>
+    <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+    <script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
 </body>
 
 </html>
