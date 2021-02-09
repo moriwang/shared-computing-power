@@ -13,3 +13,5 @@ docker run --name="<your-name>" \
 -v /home/mis/Documents/<your-name>:/root/<your-name> \
 ntpu-mis-tensorflow:20.10-tf1-py3
 ```
+
+進入 `http://120.126.146.97:9000` 後點擊帶鯨魚圖案的列表，再點擊左側的 Containers，查看剛剛創建的 ssh port(22)。
