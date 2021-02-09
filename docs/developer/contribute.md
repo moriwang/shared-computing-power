@@ -6,6 +6,11 @@
 如果購置新的機器或者有限制的 GPU 算力，可以通過以下指南加入本計畫。
 
 操作系統版本建議 Ubuntu 18.04 LTS 。確保已安裝 Nvidia Graphic Driver 與 Docker > 19.03。
+ubuntu 重啟後驅動遺失。
+表現為 `nvidia-smi` 提示
+
+https://download.nvidia.com/XFree86/Linux-x86_64/460.32.03/README/installdriver.html
+
 
 #### 安装 Nvidia Graphic Driver
 > 下载地址：[https://www.nvidia.com/Download/index.aspx?lang=en-us](https://www.nvidia.com/Download/index.aspx?lang=en-us)

@@ -19,7 +19,7 @@ docker pull nvcr.io/nvidia/tensorflow:20.10-tf1-py3
 
 ```docker
 # Maintainer zesheng <s710736501@gm.ntpu.edu.tw>
-# Version 2020-11-04
+# Version 2020-12-28
 
 # 替換成需要的鏡像
 FROM nvcr.io/nvidia/tensorflow:20.10-tf1-py3
@@ -52,8 +52,9 @@ RUN mkdir /var/run/sshd && \
     # SSH login fix. Otherwise user is kicked off after login
     sed -i 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so@g' /etc/pam.d/sshd
 
-ENV NOTVISIBLE="in users profile"
-RUN echo "export VISIBLE=now" >> /etc/profile
+# 解決 ssh 登入環境變量丟失的問題
+RUN env >> /etc/environment
+RUN echo "export PATH=$PATH" >> /etc/profile
 
 EXPOSE 22
 CMD ["/usr/sbin/sshd", "-D"]

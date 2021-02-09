@@ -1,6 +1,12 @@
 ## 更新記錄
 > 上次更新：{docsify-updated} 
 
+#### 2020-12-29
+- 解決 ssh 登入環境變量丟失的問題
+- 新增 `ntpu-mis-pytorch:20.11-py3` 鏡像
+    * 已 `nvcr.io/nvidia/pytorch:20.11-py3` 為底包。
+- 更新 `ntpu-mis-tensorflow:20.10-tf1-py3` 鏡像
+
 #### 2020-11-04
 
 - 新增 `ntpu-mis-tensorflow:20.10-tf1-py3` 鏡像
