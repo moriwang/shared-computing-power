@@ -8,8 +8,8 @@
   * [使用 VS Code Remote](user/vscode.md)
   * [使用 screen](user/screen.md)
   * [故障排除](user/troubleshooting.md)
-* **開發者指南**
+* **管理者、開發者指南**
   * [為本計畫做貢獻](developer/contribute.md)
   * [製作 Docker 鏡像](developer/docker_image.md)
   * [創建 Docker container](developer/docker_container.md)
-  * [權限管理](developer/management.md)
+  * [計畫管理](developer/management.md)

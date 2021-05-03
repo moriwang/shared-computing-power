@@ -76,8 +76,6 @@ docker build -t ntpu-mis-tensorflow:20.10-tf1-py3 .
 
 在 Portainer 內檢查。
 
-![%E8%A3%BD%E4%BD%9C%20NTPU-MIS%20%E9%8F%A1%E5%83%8F%2046731d9e7ca5440fb051b952bce3f429/Untitled.png](%E8%A3%BD%E4%BD%9C%20NTPU-MIS%20%E9%8F%A1%E5%83%8F%2046731d9e7ca5440fb051b952bce3f429/Untitled.png)
-
 **選項二**
 
 在終端機內輸入以下指令，查看是否新建成功。
@@ -85,8 +83,6 @@ docker build -t ntpu-mis-tensorflow:20.10-tf1-py3 .
 ```bash
 docker image ls
 ```
-
-![%E8%A3%BD%E4%BD%9C%20NTPU-MIS%20%E9%8F%A1%E5%83%8F%2046731d9e7ca5440fb051b952bce3f429/Untitled%201.png](%E8%A3%BD%E4%BD%9C%20NTPU-MIS%20%E9%8F%A1%E5%83%8F%2046731d9e7ca5440fb051b952bce3f429/Untitled%201.png)
 
 ### 測試 GPU 加速
 
