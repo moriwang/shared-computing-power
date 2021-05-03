@@ -74,3 +74,8 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub root@<GPU_SERVER_IP> -p<SSH_PORT>
 ```
 
 之後使用 ssh 連線就無需再輸入密碼了，更多資料請參考 [ssh-keygen - Generate a New SSH Key](https://www.ssh.com/ssh/keygen/)。
+
+### 使用 VSCode 進行遠程連線與開發
+首先，在 VSCode 中安裝 [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)。
+
+在連線時，可以結合上一節內容，做到無需輸入密碼。

@@ -36,3 +36,5 @@ screen -r <your-screen-name>
 ```bash
 screen -L -t <file_%t> -S <your-screen-name>
 ```
+#### 最佳實踐
+不推薦使用這種方法保存模型的訓練過程或結果。應在代碼中書寫指令保存至文件或使用 tensorboard 等套件。

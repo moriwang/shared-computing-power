@@ -17,7 +17,10 @@ https://download.nvidia.com/XFree86/Linux-x86_64/460.32.03/README/installdriver.
 
 選擇符合的顯卡型號，作業系統選擇 `Linux 64-bit`，下載類型選擇 `Linux Long Lived`。
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/662519d9-e48f-48e5-8abc-faa191a102ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201111T063012Z&X-Amz-Expires=86400&X-Amz-Signature=fdb5c8d9c5c334c4b357bd19ee0a959f557123092943990b7517acf7d985a588&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+安裝指令
+```bash
+sudo bash NVIDIA-Linux-x86_64-460.32.03.run
+```
 
 #### 安裝 Docker
 > 參考：[https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/engine/install/ubuntu/)
