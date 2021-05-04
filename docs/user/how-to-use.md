@@ -14,9 +14,9 @@ ssh root@<GPU_SERVER_IP> -p<SSH_PORT>
 ssh root@120.126.146.97 -p32771
 ```
 
-#### 推荐程式
-- Mac 用戶：(iterm2)[https://iterm2.com] 或自帶終端機。
-- Windows 用户：(Windows Terminal)[https://www.microsoft.com/zh-tw/p/windows-terminal/9n0dx20hk701?rtc=1]。
+#### 推荐 ssh 連線程式
+- Mac 用戶：[iterm2](https://iterm2.com) 或自帶終端機。
+- Windows 用户：[Windows Terminal](https://www.microsoft.com/zh-tw/p/windows-terminal/9n0dx20hk701?rtc=1)。
 
 ### 安裝額外的套件
 
