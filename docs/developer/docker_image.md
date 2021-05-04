@@ -1,11 +1,12 @@
-# 製作鏡像
 > 上次更新：{docsify-updated} 
+
+本章節介紹了如何從零開始製作一個鏡像。
+
+> 此操作具有一定的難度和風險，請在自己的電腦上測試完成後，再新增於 GPU Server。
 
 ### Pull 官方鏡像
 
 從 Nvidia NGC 下載需要的鏡像。以 tensorflow 為例：
-
-推薦下載最新版。
 
 [TensorFlow Release Notes :: NVIDIA Deep Learning Frameworks Documentation](https://docs.nvidia.com/deeplearning/frameworks/tensorflow-release-notes/index.html)
 
