@@ -23,7 +23,7 @@ screen -S <your-screen-name>
 
 ```bash
 screen -ls
-screen -r <your-screen-name>
+screen -r -d <your-screen-name>
 ```
 
 

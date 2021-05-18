@@ -105,8 +105,15 @@ The key's randomart image is:
 
 產生的公鑰和私鑰位於 `~/.ssh/` 下，下一步將其傳送到目標主機上。
 
+**Mac用戶**
+
+在本機終端或 iterm2 中輸入以下指令。
 ```bash
 ssh-copy-id -i ~/.ssh/id_rsa.pub root@<GPU_SERVER_IP> -p<SSH_PORT>
 ```
+
+**Windows 用戶**
+
+還沒找到好方法。如果覺得打 `goodgoodstudy` 太麻煩，可以進入你的容器，輸入 `passwd` 指令修改密碼。
 
 之後使用 ssh 連線就無需再輸入密碼了，更多資料請參考 [ssh-keygen - Generate a New SSH Key](https://www.ssh.com/ssh/keygen/)。
